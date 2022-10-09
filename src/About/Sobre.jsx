@@ -16,7 +16,7 @@ return(
       Essas buscas me trouxeram até a aŕea de desenvolvimento, mais precisamente para a linguagem PYTHON, e ainda em busca de novas 
       possibilidades, a curiosidade em saber como o mundo da tecnologia funciona, me trouxe até a Trybe, onde decidi das inicio a uma 
       nova jornada de aprendizagem.
-      Hoje posso dizer que possuo conhecimentos em HTML5, JAVASCRIPT, Express, NodeJS, ReactJs, MySQL, Sequelize entre outras diversas stacks.
+      Hoje posso dizer que possuo conhecimentos em HTML5, JavaScript, Express, NodeJS, ReactJS, MySQL, Sequelize entre outras diversas stacks.
       Abaixo conheça um pouco mais dos projetos que ja desenvolvi.
     </h3>
   </div>
