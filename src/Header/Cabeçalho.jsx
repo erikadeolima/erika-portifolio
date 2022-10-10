@@ -1,15 +1,19 @@
-import {SlChemistry} from "react-icons/sl"
+import React from 'react';
+import { GiChemicalDrop } from 'react-icons/gi';
 
-function Cabeçalho(){
-  return(
-    <div>
-      <div>
-      <SlChemistry/> Erika Lima
+function Cabeçalho() {
+  return (
+    <div className="header">
+      <div className="logo">
+        <GiChemicalDrop />
+        Erika Lima
+        <GiChemicalDrop />
+      </div>
+      {/* <div>
+        the image of the day
+      </div> */}
     </div>
-    <div>
-    </div>
-    </div>
-  )
+  );
 }
 
 export default Cabeçalho;
