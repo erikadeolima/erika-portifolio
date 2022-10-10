@@ -1,7 +1,4 @@
-.App {
-  text-align: center;
-}
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,21 +10,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +17,65 @@
   to {
     transform: rotate(360deg);
   }
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+  background-color: #201F40;
+  color: #8C3545;
+}
+
+.contact {
+  justify-content: space-between;
+}
+
+.email {
+  align-items: center;
+  justify-content: center;
+  flex-direction: center;
+  color : #F23838
+}
+.email svg {
+  align-items: center;
+  vertical-align: middle;
+  display: inherit;
+  color : #F23838
+}
+
+.follow {
+  display: inline-flex;
+  justify-content:center;
+  flex-direction: column;
+  color : #F23838
+}
+
+.follow p {
+}
+
+.gitHub svg {
+  align-items: center;
+  vertical-align: middle;
+  display: inherit;
+  color : #F23838
+}
+
+.linkedin svg {
+  align-items: center;
+  vertical-align: middle;
+  display: inherit;
+  color : #F23838
+}
+
+.footer {
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: #201F40;
+  
 }

@@ -1,12 +1,17 @@
+import React from 'react';
 import './App.css';
 import Sobre from './About/Sobre';
 import Contato from './Contact/Contato';
+import Cabeçalho from './Header/Cabeçalho';
+import Rodapé from './Footer/Rodapé';
 
 function App() {
   return (
     <div className="App">
-      < Sobre />
-      < Contato />
+      <Cabeçalho />
+      <Sobre />
+      <Contato />
+      <Rodapé />
     </div>
   );
 }
