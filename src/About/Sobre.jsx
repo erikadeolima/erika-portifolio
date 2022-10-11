@@ -5,23 +5,23 @@ import { FaQuestion, FaBabyCarriage } from 'react-icons/fa';
 
 function Sobre() {
   return (
-    <div className="about">
-      <h1 className="who-i-am">
+    <div className="about flex items-center justify-center mt-[50px] w-full flex-col text-[#201F40] bg-[#8C3545]">
+      <div className="who-i-am flex items-center justify-center grow-0 w-full space-x-[10px] text-[25px]">
         <FaQuestion />
         Quem sou eu
         <FaQuestion />
-      </h1>
-      <h3 className="born">
+      </div>
+      <div className="born flex items-center justify-center grow-0 w-full space-x-[10px] text-[15px]">
         <FaBabyCarriage />
         {' '}
         Nasci em 1993
         {' '}
-      </h3>
-      <h3 className="habitation">
+      </div>
+      <div className="habitation flex items-center justify-center grow-0 w-full space-x-[10px] text-[15px]">
         <FcHome />
         Moro em Itaquá - São Paulo
-      </h3>
-      <h4 className="description">
+      </div>
+      <div className="description items-center text-justify mx-[40px] text-[14px]">
         <p>
           Um dos meus pensamentos de vida é que o conhecimento é uma das poucas coisas que não podem tirar de você.Por isso sou apaixonda em aprender e estar em constante evolução.
         </p>
@@ -37,7 +37,7 @@ function Sobre() {
           Hoje posso dizer que possuo conhecimentos em HTML5, JavaScript, Express, NodeJS, ReactJS, MySQL, Sequelize entre outras diversas stacks que ainda estou em processo de estudo e aprimoramento.
           Abaixo conheça um pouco mais dos projetos que ja desenvolvi.
         </p>
-      </h4>
+      </div>
     </div>
   );
 }
